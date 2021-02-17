@@ -1,0 +1,148 @@
+/* medium layout 1200px */
+@media (min-width:992px) and ( max-width: 1200px ){
+
+}
+/* teblet layout 768px */
+@media (min-width:768px) and ( max-width: 991px ){
+
+}
+/* mobile layout 320px */ 
+@media ( max-width: 767px ){
+    .container{
+        width: 92% !important;
+        max-width: none;
+    }
+
+    .nav_icon {
+        display: none;
+    }
+    .menu .container{
+        display: contents;
+    }
+    .menu{
+        background: #FFFFFF;
+        border-bottom:1px solid #FB5B21;
+    }
+    img.logo-default {
+        display: none;
+    }
+    .logo-small {
+        display: block;
+        width: 100px;
+    }
+    .menu_padding {
+        padding: 0px 10px;
+    }
+    .navbar-toggler-icon {
+
+        width: 1.5em;
+        height: 1.5em;
+        color: #FB5B21;
+        font-size: 30px;
+        line-height: 34px;}
+        .our_menu ul {
+            text-align:left;
+            w100%
+        }
+        .our_menu ul li {
+            display: block;
+            border-bottom: 1px solid #333333;
+
+        } 
+        .top_header {
+            display: none;
+        }
+        .hero_text h1{
+            font-size: 50px;
+        }
+        .hero_text p{
+            font-size: 16px;
+        }
+        .hero_text button{
+            margin-top: 5px;
+        }
+        .about_sec {
+
+            text-align: center;
+        }
+        .classes_title p {
+            font-size: 15px;
+        }
+        .classes_title p br {
+            display: none;
+        }
+        .class_title h2 {
+            font-size: 25px;
+        }
+        .class_times {
+            padding: 10px 5px;
+        }
+        .class_times ul li {
+            padding: 4px 10px;
+            border-radius: 15px;
+
+        }
+        .textimonial_text {
+            width: 220px;
+
+        }
+        .textimonial_text h3 {
+            font-size: 16px;
+            margin-right: 0%;
+            line-height: 17px;
+        }
+        .textimonial_text p {
+            font-size: 15px;
+            line-height: 23px;
+        }
+        .testimonial_img {
+            padding-left: 0px;
+            padding-top: 3px;
+            height: 80px;
+            width: 80px;
+        }
+        .textimonial_text h3::after {
+            right: 0px;
+        }
+
+    }
+    .trainers_wapper .col-md-9.offset-2 {
+        margin-left: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+/* wide mobile layout 480px */
+@media (min-width:480px) and ( max-width: 767px ){
+    
+}
+
